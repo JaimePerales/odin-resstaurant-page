@@ -1,1 +1,1 @@
-# odin-resstaurant-page
+# odin-restaurant-page
