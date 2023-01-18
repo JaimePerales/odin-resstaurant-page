@@ -1,0 +1,56 @@
+:root {
+    --russian-green: #78875Dff;
+    --cultured: #F4F6F6ff;
+    --pine-tree: #141C02ff;
+}
+
+body {
+    background-image: url("imgs/pexels-polina-tankilevitch-4443492.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#content {
+    background-color: var(--pine-tree);
+    width: 800px;
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+#restaurant-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-grow: 1;
+    margin: 1rem;
+}
+
+#restaurant-info>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--russian-green);
+    color: var(--cultured);
+    width: 700px;
+    height: fit-content;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+
+#img-credit {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-size: .5rem;
+}

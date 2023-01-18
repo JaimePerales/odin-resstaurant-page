@@ -8,7 +8,8 @@ const createRestaurantTitle = () => {
     const restaurantTitleDiv = document.createElement('div');
     const restaurantTitle = document.createElement('h1');
     restaurantTitle.textContent = 'Jaime\'s Juice Jamberee';
-    restaurantTitle.id = 'restaurant-title';
+    restaurantTitleDiv.id = 'restaurant-title';
+
 
     restaurantTitleDiv.appendChild(restaurantTitle);
 
